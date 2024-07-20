@@ -12,13 +12,16 @@
 
         <div>
             <p>Connect with via</p>
-            <a href="https://web.facebook.com/profile.php?id=100074200491475" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/abdullahmahdy747/" target="_blank">instagram</a>
-            <a href="mailto:abdullahmahdy18@gmail.com" target="_blank">Gmail</a>
+            <div class="link">
+                <a href="https://web.facebook.com/profile.php?id=100074200491475" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/abdullahmahdy747/" target="_blank">instagram</a>
+                <a href="mailto:abdullahmahdy570@gmail.com" target="_blank">Gmail</a>
+            </div>
         </div>
         <div class="end">
-            <h3>Never</h3>
+            <h3>Don't</h3>
             <h3>Forget</h3>
+            <h3>Never</h3>
             <img src="img2.png">
         </div>
         <!-- css -->
@@ -81,9 +84,17 @@
             position: relative;
             right: 3px;
         }
-        @media (min-width:0px) and (max-width:464px) {
+        .link{
+            word-spacing: 10px;
+        }
+        @media (min-width:369px) and (max-width:464px) {
             body{
-                background-repeat: repeat;
+                height: 102vh;
+            }
+        }
+        @media (min-width:0px) and (max-width:368px) {
+            body{
+                height: 111vh;
             }
         }
         @media (min-width:0px) and (max-width:335px) {
@@ -129,6 +140,11 @@
         @media (min-width:150px) and (max-width:179px) {
             h1{
                 font-size: 20px;
+            }
+        }
+        @media (min-width:0px) and (max-width:368px) {
+            .link{
+                line-height: 50px;
             }
         }
     </style>
